@@ -1,0 +1,86 @@
+.column1 {
+  float: right;
+  width: 40%;
+  height: 50%;
+  padding: 10px;
+    margin-right: 100px;
+}
+.column2 {
+  float: left;
+  height: 50%;
+  width: 40%;
+  padding-top:10px;
+  margin-left: 100px;
+}
+
+
+.row1{
+  width: 70%;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  border: 2px solid rgb(86, 86, 214);
+  border-radius: 5px;
+  margin-right: 190px;
+}
+/* Clear floats after the columns */
+.row1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.h4{
+  margin-right: 70px;
+  margin-bottom: 5px;
+  margin-top: 0px;
+  width: 70%;
+}
+
+.fontgray{
+  margin-bottom: 0px;
+  margin-right: 90px;
+
+}
+.inputt{
+	width: 60%;
+  height: 20%;
+  display: inline-block;
+  margin-bottom: 5px;
+  border: 2px solid rgb(12, 11, 11);
+  font-size: 120%;
+	justify-content: center;
+	color: #000;
+  margin-right: 72px;
+  padding-bottom: 5px;
+  padding-right: 7px;
+  margin-top: 7px;
+}
+.input2{
+	width: 300px;
+  height: 50%;
+  margin-right: 200px;
+  padding: 1px 2px;
+  display: inline-block;
+  border: 2px solid rgb(12, 11, 11);
+  font-size: 120%;
+	justify-content: left;
+	color: #000;
+}
+
+.addbtn2{
+  width: 15%;
+  height: 30px;
+  margin-right: 1000px;
+  margin-top: 15%;
+  margin-bottom: 20%;
+  border-radius: 2px;
+  background: linear-gradient(
+    90deg,
+    rgb(3, 71, 143) 0%,
+    rgb(0, 232, 236) 100%
+  );
+  outline: none;
+  border: none;
+  color: #fff;
+  font-size: 100%;
+}

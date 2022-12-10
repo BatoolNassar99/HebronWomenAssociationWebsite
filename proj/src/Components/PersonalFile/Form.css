@@ -1,0 +1,146 @@
+.PersonalInfoForm1 {
+	align-items: center;
+	width: 70%;
+	height: 70%;
+	border: 1px solid gray;
+	text-align: center;
+	padding-right: 7px;
+	padding-left: 7px;
+	padding-bottom: 30px;
+	margin-right: 200px;
+	border: 2px solid rgb(39, 176, 255);
+}
+.PersonalInfoForm1 h3 {
+	width: 400px;
+	border: 2px solid rgb(39, 176, 255);
+	border-radius: 5px;
+	padding-bottom: 7px;
+	text-align: center;
+}
+.rightt {
+	float: right;
+	padding-right: 10px;
+	text-align: right;
+	border: 1px solid lightsteelblue;
+	width: 410px;
+	padding: 5px;
+	border-radius: 5px;
+	margin-left: 1px;
+	margin-right: 25px;
+}
+
+.leftt {
+	text-align: right;
+	border: 1px solid lightsteelblue;
+	border-radius: 5px;
+	width: 410px;
+	padding: 5px;
+	border-radius: 5px;
+	margin-left: 1px;
+	margin-right: 1px;
+	margin-bottom: 100px;
+	position: absolute;
+    left: 250px;
+	display: inline;
+	top: 309px;
+}
+.contactInfoo {
+	text-align: right;
+	border: 1px solid lightsteelblue;
+	border-radius: 5px;
+	width: 410px;
+	padding: 5px;
+	border-radius: 5px;
+	margin-left: 1px;
+	margin-right: 1px;
+	position: absolute;
+	margin-top: 10px;
+	display: inline;
+	bottom: -110px;
+    left: 250px;
+
+}
+
+.PersonalForm-inputs1 {
+	margin-bottom: 1rem;
+	width: 90%;
+	height: 200%;
+	text-align: center;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.PersonalForm-inputs1 label {
+	width: 100px;
+	font-size: 18px;
+	font-family: 'Times New Roman', Times, serif;
+	display: inline-block;
+	width: 50%;
+	text-align: right;
+}
+.PersonalForm-input1 {
+	display: inline;
+	padding-right: 10px;
+	border-radius: 5px;
+	height: 40px;
+	width: 50%;
+	border: 2px solid rgb(39, 176, 255);
+}
+.PersonalForm-inputs1 p {
+	font-size: 0.8rem;
+	margin-top: 0.5rem;
+}
+
+.Change-Password-btn1 {
+	width: 20%;
+	height: 50px;
+	margin-top: 10px;
+	border-radius: 2px;
+	background: linear-gradient(90deg, rgb(39, 176, 255) 0%, rgb(0, 232, 236) 100%);
+	border: none;
+	color: #fff;
+	font-size: 1rem;
+	padding-right: 10px;
+	margin-right: 190px;
+	align-items: center;
+}
+.Change-Password-btn1:hover {
+	cursor: pointer;
+	background: linear-gradient(90deg, rgb(39, 143, 255) 0%, rgb(12, 99, 250) 100%);
+	transition: all 0.4s ease-out;
+}
+.form-input-btn1 {
+	width: 20%;
+	height: 50px;
+	margin-top: 120px;
+	border-radius: 2px;
+	background: linear-gradient(90deg, rgb(39, 176, 255) 0%, rgb(0, 232, 236) 100%);
+	border: none;
+	color: #fff;
+	font-size: 1rem;
+	padding-right: 10px;
+	align-items: center;
+	margin-left: 210px;
+	margin-right: 150px;
+}
+
+.form-input-btn1:hover {
+	cursor: pointer;
+	background: linear-gradient(90deg, rgb(39, 143, 255) 0%, rgb(12, 99, 250) 100%);
+	transition: all 0.4s ease-out;
+}
+
+.form-login-btn1 {
+	width: 20%;
+	height: 50px;
+	margin-top: 20px;
+	border-radius: 2px;
+	background: linear-gradient(90deg, rgb(39, 176, 255) 0%, rgb(0, 232, 236) 100%);
+	border: none;
+	color: #fff;
+	font-size: 1rem;
+	padding-right: 10px;
+	align-items: center;
+	margin-left: 30px;
+}
+

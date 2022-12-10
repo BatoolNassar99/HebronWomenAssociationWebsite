@@ -1,0 +1,52 @@
+.add{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 200%;
+  color: rgb(0, 6, 12);
+  
+}
+
+.fontgray{
+  color: gray;
+}
+.form-group{
+height: 100%;
+}
+
+.datepicker {
+align-items: center;
+text-align: center;
+}
+
+.input{
+  width: 30%;
+  height: 60px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 3px solid rgb(12, 11, 11);
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+.justify-content-md-center{
+  color: gray;
+}
+.addbtn{
+  width: 15%;
+  height: 50px;
+  margin-top: 10px;
+  border-radius: 2px;
+  background: linear-gradient(
+    90deg,
+    rgb(3, 71, 143) 0%,
+    rgb(0, 232, 236) 100%
+  );
+  outline: none;
+  border: none;
+  color: #fff;
+  font-size: 100%;
+}

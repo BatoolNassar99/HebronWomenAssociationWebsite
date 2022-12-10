@@ -1,0 +1,131 @@
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 400px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.secT{
+  margin: 7px 200px 1px 10px;
+  width: 30%;	
+}
+
+.head2{
+  color: #06aad3f5;
+  font-size: 180%;
+}
+
+
+.addbtn2{
+  width: 20%;
+  height: 50px;
+  margin-right: 220px;
+  margin-bottom: 30px;
+  border-radius: 2px;
+  background: linear-gradient(
+    90deg,
+    rgb(3, 71, 143) 0%,
+    rgb(0, 232, 236) 100%
+  );
+  outline: none;
+  border: none;
+  color: #fff;
+  font-size: 100%;
+}
+
+.h2{
+  color: #06aad3f5;
+  font-size: 120%;
+
+}
+
+.input{
+  width: 30%;
+  height: 60px;
+  padding: 12px 20px;
+  margin-right: 200px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  display: inline-block;
+  border: 3px solid rgb(12, 11, 11);
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+.addbtn{
+  width: 15%;
+  height: 50px;
+  margin-top: 30px;
+  margin-right: 600px;
+  margin-bottom: 30px;
+  border-radius: 2px;
+  background: linear-gradient(
+    90deg,
+    rgb(3, 71, 143) 0%,
+    rgb(0, 232, 236) 100%
+  );
+  outline: none;
+  border: none;
+  color: #fff;
+  font-size: 100%;
+}
+
+.custom-select2{
+	width: 30%;
+  height: 40%;
+  padding: 12px 20px;
+	margin: 0px 500px 1px 30px;
+  display: inline-block;
+  border: 2px solid rgb(12, 11, 11);
+  font-size: 120%;
+	justify-content: center;
+	color: #000;
+}
+
+.custom-select{
+	width: 30%;
+  height: 40%;
+  padding: 12px 20px;
+	margin: 0px 500px 1px 30px;
+  display: inline-block;
+  border: 2px solid rgb(12, 11, 11);
+  font-size: 120%;
+	justify-content: center;
+	color: #000;
+}
+
+h4{
+	margin: 7px 500px 10px 120px;
+  width: 30%;	
+}
+
+h5{
+	margin: 7px 500px 10px 120px;
+  width: 30%;	
+}
+
+.sections {
+  content: "";
+  display: table;
+  clear: both;
+  float: center;
+padding: 10px;
+  width: 40%;
+  height: 100px; /* Should be removed. Only for demonstration */
+}
+.sections2 {
+  content: "";
+  display: table;
+  clear: both;
+  float: center;
+padding: 10px;
+margin-left: 0%;
+  width: 40%;
+  height: 100px; /* Should be removed. Only for demonstration */
+}
